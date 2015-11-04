@@ -1,0 +1,2 @@
+fdisk -l 
+mount -t vfat /dev/sdd1/ /mnt/usb/ -o uid=1000,gid=100,utf8,dmask=027,fmask=137
