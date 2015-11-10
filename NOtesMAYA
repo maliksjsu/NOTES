@@ -1,0 +1,3 @@
+11:30:4 - 10/11/2015
+-traceback: 
+'Traceback (most recent call last):\n  File "/usr/local/share/SPG/SawQ/Tests/libs/SawQSupport.py", line 47, in runSawQTest\n    ourTest.runTest()\n  File "/usr/local/share/SPG/SawQ/Tests/libs/TestBase.py", line 116, in runTest\n    self.executeTest()\n  File "/SawQ/Tests/Maya/BifrostTest.py", line 42, in executeTest\n    timeout=20, errorMessage="Need more time to load the scene")\n  File "/usr/local/share/SPG/SawQ/Tests/libs/Timing.py", line 89, in waitForEvent\n    raise TestFailure(errorMessage)\nTestFailure: Need more time to load the scene\n'
